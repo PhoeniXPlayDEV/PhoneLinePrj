@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class PhoneLineTest {
 
     @Test
-    public void testSequence1() {
+    public void testPhoneLineRealization() {
         var path = System.getProperty("user.dir") + "\\files\\TestsSequences.txt";
         var testsSequences = Tools.parseTestsSequences(path);
         for(TestSequenceContainer container : testsSequences) {
